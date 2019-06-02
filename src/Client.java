@@ -44,6 +44,7 @@ public class Client extends MainWindow
 	public static void main(String[] args) throws IOException {
 		Client client = new Client();
 		client.finGUI();
+		client.setSize(MainWindow.WIDTH.intValue(), MainWindow.HEIGHT.intValue());
 	}
 	
 	public void RequestServer () throws IOException
